@@ -23,6 +23,7 @@ display: flex;
 flex-direction: column;
 text-align:center;
 }
+
 .aboutContent{
 display: flex;
 align-items: center;
@@ -43,10 +44,11 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
-
+    
 .headerText {
-margin-right: 750px;
+margin-right: 43%;
 }
+    
 
 .galeriContent {
 margin-left: 40px;
@@ -75,10 +77,14 @@ width: 400px;
 height: 340px;
 transition: .3s;
 justify-content: space-between;
+padding: 40px;
+-webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
+-moz-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
+box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .galeriImg:hover {
-margin-top: 40px;
+margin-bottom: 40px;
 transform: scale(1.2);
 }
 
@@ -104,6 +110,82 @@ flex-wrap: wrap;
 justify-content: space-between;
 }
 
+.galeriContent2 {
+    margin-left: 40px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    
+    .galeriImg2:hover {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    transform: scale(1.2);
+    }
+    
+    .container2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    }
+    
+    .galeriImg2 {
+    border-radius: 1px;
+    width: 400px;
+    height: 340px;
+    transition: .3s;
+    justify-content: space-between;
+    padding: 40px;
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    .galeriImg2:hover {
+    margin-bottom: 40px;
+    transform: scale(1.2);
+    }
+    
+    
+    
+    .galeriTitle2 {
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    opacity: 0.8;
+    transition: .5s;
+    margin-bottom: 10px;
+        
+    }
+    
+    .galeriTitle2:hover {
+    opacity: 1;
+    }
+    
+    .galeriWrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.sectionCharter2 {
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.menu a:hover{
+color: rgb(104, 255, 255);
+border-bottom: rgb(104, 255, 255) 1px solid;
+}
+
 
 .menu {
 margin-left: 100px;
@@ -113,6 +195,7 @@ margin-left: 100px;
 color: rgb(255, 255, 255);
 margin: 0 10px;
 text-decoration: none;
+transition: .4s;
 }
 
 .UslugiBg {
@@ -120,6 +203,7 @@ min-height: 100vh;
 background-image: url(img/Светлосерый.png);
 background-size: cover;
 background-repeat: no-repeat;
+margin-top: 50px;
 }
 
 .UslugiImg {
@@ -197,7 +281,7 @@ justify-content: space-between;
 
 
 .basematBg {
-background: #c0c0c0;
+background: #000000;
 min-height: auto;
 padding: 0;
 }
@@ -223,7 +307,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-decoration: none;
-color: white;
+color: rgb(146, 146, 146);
 margin-top: 20px;
 opacity: .7;
 transition: .2s;
@@ -234,7 +318,13 @@ max-width: 50px;
 max-height: 50px;
 }
 
+.basematText:hover {
+color: rgb(255, 255, 255);
+opacity: 1;
+}
+
 .basematUnderText {
+color: white;
 justify-content: center;
 font-size: 25px;
 font-weight: normal;
@@ -250,4 +340,5 @@ align-items: center;
 text-decoration: none;
 font-size: 25px;
 color: rgb(255, 255, 255);
+margin-left: 40px;
 }
